@@ -1,0 +1,8 @@
+{
+    "name": "com.aquarterofpixel.raymarching",
+    "displayName": "Raymarching",
+    "version": "0.1.0",
+    "unity": "2018.3",
+    "description": "Raymarching library used to render signed distance fields.",
+    "keywords": [ "raymarching", "render", "sdf" ]
+}
