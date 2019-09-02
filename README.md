@@ -30,3 +30,5 @@ The toolkit is structured as a Unity package. To install it in your Unity projec
 5. Add the `RaymarchPrimitive` component to the primitives list of the `Raymarcher` component.
 
 <p align="center"><img align="center" src="Documentation/raymarcher_primitives.png"></p>
+
+Now you can move, rotate or scale the raymarch primitive with the Unity transform tools.
