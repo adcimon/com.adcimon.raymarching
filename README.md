@@ -35,4 +35,7 @@ Now you can move, rotate or scale the raymarch primitive with the Unity transfor
 
 ## Advanced raymarching
 
-It is also posible to implement a more complex interaction between primitives creating a raymarcher shader. To create a raymarcher shader go to the context menu `Create > Raymarcher Shader`. The shader contains the function `RaymarchData SignedDistanceField(float3 position)` that must be implemented. The function is executed in the fragment shader and iterates over the primitives array and returns the data of the closest one.
+It is also posible to implement a more complex interaction between primitives creating a raymarcher shader. To create a raymarcher shader go to the context menu `Create > Raymarcher Shader`. The shader contains the function `RaymarchData SignedDistanceField(float3 position)` that must be implemented. The function is executed in the fragment shader, iterates over the primitives array and returns the data of the closest one. A library of operations is provided in the files:
+
+* [SignedDistanceOperations.hlsl](ShaderLibrary/SignedDistanceOperations.hlsl)
+* [SignedDistanceBooleanOperations.hlsl](ShaderLibrary/SignedDistanceBooleanOperations.hlsl)
