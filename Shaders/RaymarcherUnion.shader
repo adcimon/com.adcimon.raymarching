@@ -60,6 +60,7 @@
 							data.color = primitive.color;
 							data.shininess = primitive.shininess;
 							data.specularColor = primitive.specularColor;
+
 							mind = d;
 						}
 					}
