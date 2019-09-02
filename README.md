@@ -17,16 +17,16 @@ The toolkit is structured as a Unity package. To install it in your Unity projec
 
 2. Select the material used to render. Two materials are included in the package, `RaymarcherUnion` and `RaymarcherSmoothUnion`.
 
-![](Documentation/raymarcher_material.png)
+<p align="center"><img align="center" src="Documentation/raymarcher_material.png"></p>
 
 3. Add a `RaymarchPrimitive` component to a gameobject.
 
-![](Documentation/add_raymarch_primitive.png)
+<p align="center"><img align="center" src="Documentation/add_raymarch_primitive.png"></p>
 
 4. Select the parameters and material used to render the primitive.
 
-![](Documentation/raymarch_primitive_parameters_material.png)
+<p align="center"><img align="center" src="Documentation/raymarch_primitive_parameters_material.png"></p>
 
 5. Add the `RaymarchPrimitive` component to the primitives list of the `Raymarcher` component.
 
-![](Documentation/raymarcher_primitives.png)
+<p align="center"><img align="center" src="Documentation/raymarcher_primitives.png"></p>
