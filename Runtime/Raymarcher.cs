@@ -28,10 +28,10 @@ public class Raymarcher : MonoBehaviour
     public int steps = 64;
     public float minDistance = 0.01f;
     public float maxDistance = 1000;
-    public float normalOffset = 0.01f;
     public bool debugSteps = false;
 
     [Header("Lighting")]
+    public float normalOffset = 0.01f;
     public Normals normals = Normals.CentralDifferences;
     public bool ambient = true;
     public bool ambientSky = false;

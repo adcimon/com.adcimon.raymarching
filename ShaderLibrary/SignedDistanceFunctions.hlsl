@@ -19,7 +19,7 @@ float sdBox( float3 p, float3 l )
 		+ min(max(d.x, max(d.y, d.z)), 0.0); // Remove this line for an only partially signed sdf.
 }
 
-// s: Radius.
+// r: Radius.
 float sdSphere( float3 p, float r )
 {
 	return length(p) - r;
