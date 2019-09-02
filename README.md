@@ -13,7 +13,7 @@ The toolkit is structured as a Unity package. To install it in your Unity projec
 
 1. Attach a `Raymarcher` component to the camera.
 
-<img align="center" src="Documentation/add_raymarcher.png">
+<p align="center"><img align="center" src="Documentation/add_raymarcher.png"></p>
 
 2. Select the material used to render. Two materials are included in the package, `RaymarcherUnion` and `RaymarcherSmoothUnion`.
 
