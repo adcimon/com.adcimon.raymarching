@@ -35,7 +35,10 @@ Now you can move, rotate or scale the raymarch primitive with the Unity transfor
 
 ## Raymarcher shaders
 
-It is also posible to implement a more complex interaction between primitives creating a raymarcher shader. To create a raymarcher shader go to the context menu `Create > Raymarcher Shader`. The shader contains the function `RaymarchData SignedDistanceField(float3 position)` that must be implemented. The function is executed in the fragment shader, iterates over the primitives array and returns the data of the closest one. A library of operations is provided in the files:
+It is also posible to implement a more complex interaction between primitives creating a raymarcher shader. To create a raymarcher shader go to the context menu `Create > Raymarcher Shader`. The shader contains the function `RaymarchData SignedDistanceField(float3 position)` that is executed in the fragment shader. The function does the following calculations:
 
-* [SignedDistanceOperations.hlsl](ShaderLibrary/SignedDistanceOperations.hlsl)
-* [SignedDistanceBooleanOperations.hlsl](ShaderLibrary/SignedDistanceBooleanOperations.hlsl)
+1. Iterates over the primitives array.
+2. Transforms the target position from world space to the primitive local space.
+3. Calculates the distance using the signed distance function of the primitive at the transformed position.
+4. The union operator `data.distance = opUnion(data.distance, d)` is applied to the primitives. Other operators can be found in the libraries provided [SignedDistanceOperations.hlsl](ShaderLibrary/SignedDistanceOperations.hlsl) and [SignedDistanceBooleanOperations.hlsl](ShaderLibrary/SignedDistanceBooleanOperations.hlsl).
+5. Returns the data of the closest primitive.
