@@ -40,5 +40,5 @@ It is also posible to implement a more complex interaction between primitives cr
 1. Iterates over the primitives array.
 2. Transforms the target position from world space to the primitive local space.
 3. Calculates the distance using the signed distance function of the primitive at the transformed position.
-4. The union operator `data.distance = opUnion(data.distance, d)` is applied to the primitives. Other operators can be found in the libraries provided [SignedDistanceOperations.hlsl](ShaderLibrary/SignedDistanceOperations.hlsl) and [SignedDistanceBooleanOperations.hlsl](ShaderLibrary/SignedDistanceBooleanOperations.hlsl).
+4. The union operator `data.distance = opUnion(data.distance, d)` is applied to the primitives. Other operators can be found in the files [SignedDistanceOperations.hlsl](ShaderLibrary/SignedDistanceOperations.hlsl) and [SignedDistanceBooleanOperations.hlsl](ShaderLibrary/SignedDistanceBooleanOperations.hlsl).
 5. Returns the data of the closest primitive.
