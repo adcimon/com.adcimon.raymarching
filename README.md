@@ -9,7 +9,7 @@ The toolkit is structured as a Unity package. To install it in your Unity projec
 1. Clone the repository on your machine.
 2. Open the file `MyUnityProject/Packages/manifest.json` and add the dependency of the cloned package `"com.aquarterofpixel.raymarching": "file:path/to/Raymarching"`.
 
-## How to use it
+## Usage
 
 1. Attach a `Raymarcher` component to the camera.
 
