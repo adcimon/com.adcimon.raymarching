@@ -1,7 +1,7 @@
 {
-    "name": "AQuarterOfPixel.Raymarching.Editor",
+    "name": "Raymarching.Editor",
     "references": [
-        "AQuarterOfPixel.Raymarching.Runtime"
+        "Raymarching.Runtime"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
