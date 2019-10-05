@@ -25,7 +25,7 @@
 			#pragma vertex Vertex
 			#pragma fragment Fragment
 
-			#include "Packages/com.aquarterofpixel.raymarching/ShaderLibrary/RaymarchingCore.hlsl"
+			#include "Packages/com.adcimon.raymarching/ShaderLibrary/RaymarchingCore.hlsl"
 
 			float _Smooth;
 			int _BlendColors;

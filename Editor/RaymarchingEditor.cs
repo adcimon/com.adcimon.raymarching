@@ -58,7 +58,7 @@ public static class RaymarchingEditor
             #pragma vertex Vertex
             #pragma fragment Fragment
 
-            #include ""Packages/com.aquarterofpixel.raymarching/ShaderLibrary/RaymarchingCore.hlsl""
+            #include ""Packages/com.adcimon.raymarching/ShaderLibrary/RaymarchingCore.hlsl""
 
             // Implement this function to create the signed distance field.
             RaymarchData SignedDistanceField( float3 position )
