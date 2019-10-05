@@ -9,7 +9,7 @@ This repository contains a toolkit to render signed distance fields with raymarc
 The toolkit is structured as a Unity package. To install it in your Unity project follow the next steps:
 
 1. Clone the repository on your machine.
-2. Open the file `MyUnityProject/Packages/manifest.json` and add the dependency of the cloned package `"raymarching": "file:path/to/Raymarching"`.
+2. Open the file `MyUnityProject/Packages/manifest.json` and add the dependency of the cloned package `"com.adcimon.raymarching": "file:path/to/Raymarching"`.
 
 ## Usage
 
