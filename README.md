@@ -1,6 +1,6 @@
 # Raymarching
 
-This repository contains a toolkit to render signed distance functions with raymarching in Unity.
+This repository contains a toolkit to render signed distance fields with raymarching in Unity.
 
 ## Installation
 
