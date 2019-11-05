@@ -1,8 +1,13 @@
 {
-    "name": "com.adcimon.raymarching",
-    "displayName": "Raymarching",
-    "version": "0.3.0",
-    "unity": "2018.3",
-    "description": "Raymarching library used to render signed distance fields.",
-    "keywords": [ "raymarching", "render", "sdf" ]
+  "name": "com.adcimon.raymarching",
+  "displayName": "Raymarching",
+  "version": "0.3.0",
+  "type": "library",
+  "unity": "2018.3",
+  "description": "Raymarching library used to render signed distance fields.",
+  "keywords": [
+    "raymarching",
+    "render",
+    "sdf"
+  ]
 }
