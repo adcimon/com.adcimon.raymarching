@@ -13,7 +13,7 @@ The library is structured as a UPM package and requires the built-in rendering p
 
 <p align="center"><img align="center" src="Documentation~/Images/add_package.jpg"></p>
 
-3. Copy and paste this git repository URL.
+3. Copy and paste the git repository URL.
 
 ## Usage
 
