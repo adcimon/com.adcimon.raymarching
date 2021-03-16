@@ -2,9 +2,9 @@
 
 Library to render signed distance fields with raymarching in Unity.
 
-<p align="center"><img align="center" src="example1.gif"></p>
-<p align="center"><img align="center" src="example2.gif"></p>
-<p align="center"><img align="center" src="example3.gif"></p>
+<p align="center"><img align="center" src="Documentation~/Images/example1.gif"></p>
+<p align="center"><img align="center" src="Documentation~/Images/example2.gif"></p>
+<p align="center"><img align="center" src="Documentation~/Images/example3.gif"></p>
 
 ## Installation
 
