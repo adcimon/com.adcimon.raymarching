@@ -2,9 +2,9 @@
 
 Library to render signed distance fields with raymarching in Unity.
 
-<p align="center"><img align="center" src="Documentation~/Images/example1.gif"></p>
-<p align="center"><img align="center" src="Documentation~/Images/example2.gif"></p>
-<p align="center"><img align="center" src="Documentation~/Images/example3.gif"></p>
+<p align="center"><img align="center" src="Documentation~/example1.gif"></p>
+<p align="center"><img align="center" src="Documentation~/example2.gif"></p>
+<p align="center"><img align="center" src="Documentation~/example3.gif"></p>
 
 ## Installation
 
@@ -13,7 +13,7 @@ The library is structured as a UPM package and requires the built-in rendering p
 1. Open the Package Manager.
 2. Press the plus button and select "Add package from git URL...".
 
-<p align="center"><img align="center" src="Documentation~/Images/add_package.jpg"></p>
+<p align="center"><img align="center" src="Documentation~/add_package.jpg"></p>
 
 3. Copy and paste the git repository URL.
 
@@ -21,23 +21,23 @@ The library is structured as a UPM package and requires the built-in rendering p
 
 1. Attach a `Raymarcher` component to the camera.
 
-<p align="center"><img align="center" src="Documentation~/Images/add_raymarcher.jpg"></p>
+<p align="center"><img align="center" src="Documentation~/add_raymarcher.jpg"></p>
 
 2. Select the material used to render. Two materials are included in the package, `RaymarcherUnion` and `RaymarcherSmoothUnion`.
 
-<p align="center"><img align="center" src="Documentation~/Images/raymarcher_material.jpg"></p>
+<p align="center"><img align="center" src="Documentation~/raymarcher_material.jpg"></p>
 
 3. Add a `RaymarchPrimitive` component to a gameobject.
 
-<p align="center"><img align="center" src="Documentation~/Images/add_raymarch_primitive.jpg"></p>
+<p align="center"><img align="center" src="Documentation~/add_raymarch_primitive.jpg"></p>
 
 4. Select the parameters and material used to render the primitive.
 
-<p align="center"><img align="center" src="Documentation~/Images/raymarch_primitive_parameters_material.jpg"></p>
+<p align="center"><img align="center" src="Documentation~/raymarch_primitive_parameters_material.jpg"></p>
 
 5. Add the `RaymarchPrimitive` component to the primitives list of the `Raymarcher` component.
 
-<p align="center"><img align="center" src="Documentation~/Images/raymarcher_primitives.jpg"></p>
+<p align="center"><img align="center" src="Documentation~/raymarcher_primitives.jpg"></p>
 
 Now you can move, rotate or scale the raymarch primitive with the Unity transform tools.
 
