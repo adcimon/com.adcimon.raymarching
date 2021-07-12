@@ -6,17 +6,6 @@ Library to render signed distance fields with raymarching in Unity.
 <p align="center"><img align="center" src="Documentation~/example2.gif"></p>
 <p align="center"><img align="center" src="Documentation~/example3.gif"></p>
 
-## Installation
-
-The library is structured as a UPM package and requires the built-in rendering pipeline. To install it in your Unity project follow the next steps:
-
-1. Open the Package Manager.
-2. Press the plus button and select "Add package from git URL...".
-
-<p align="center"><img align="center" src="Documentation~/add_package.jpg"></p>
-
-3. Copy and paste the git repository URL.
-
 ## Usage
 
 1. Attach a `Raymarcher` component to the camera.
