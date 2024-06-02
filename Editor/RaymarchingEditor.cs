@@ -4,36 +4,36 @@ using UnityEditor;
 
 public static class RaymarchingEditor
 {
-    [MenuItem("Assets/Create/Raymarcher Shader")]
-    public static void CreateRaymarcherShader()
-    {
-        string path = AssetDatabase.GetAssetPath(Selection.activeObject);
-        if( Path.GetExtension(path) != "" )
-        {
-            path = path.Replace(Path.GetFileName(AssetDatabase.GetAssetPath(Selection.activeObject)), "");
-        }
+	[MenuItem("Assets/Create/Raymarcher Shader")]
+	public static void CreateRaymarcherShader()
+	{
+		string path = AssetDatabase.GetAssetPath(Selection.activeObject);
+		if (Path.GetExtension(path) != "")
+		{
+			path = path.Replace(Path.GetFileName(AssetDatabase.GetAssetPath(Selection.activeObject)), "");
+		}
 
-        string[] folders = path.Split('/');
-        path = "";
-        for( int i = 0; i < folders.Length; i++ )
-        {
-            if( folders[i] == "Assets" )
-            {
-                continue;
-            }
+		string[] folders = path.Split('/');
+		path = "";
+		for (int i = 0; i < folders.Length; i++)
+		{
+			if (folders[i] == "Assets")
+			{
+				continue;
+			}
 
-            path += "/" + folders[i];
-        }
+			path += "/" + folders[i];
+		}
 
-        using( StreamWriter stream = File.CreateText(Application.dataPath + path + "/New Raymarcher Shader.shader") )
-        {
-            stream.Write(template);
-        }
+		using (StreamWriter stream = File.CreateText(Application.dataPath + path + "/New Raymarcher Shader.shader"))
+		{
+			stream.Write(template);
+		}
 
-        AssetDatabase.Refresh();
-    }
+		AssetDatabase.Refresh();
+	}
 
-    private static string template = @"Shader ""Raymarching/New Raymarcher Shader""
+	private static string template = @"Shader ""Raymarching/New Raymarcher Shader""
 {
 	Properties
 	{
